@@ -18,8 +18,8 @@ def main():
 # This entire section is the output of our information
     print(f"The total Number of Students: t\t{total_peeps}")
     print(f"The Number of Males, Femals and Non-binary: \t{men_num} \t{fem_num} \t{nonb_num}")
-    print(f"The Percentage of Males, Females and Non-Binary \t {m_perc:.2f}% \t{f_perc:.2f}% \t{nb_perc:.2f}%")
-
+    print(f"The Percentage of Males, Females and Non-Binary \t {m_perc:.2f}% \t{f_perc:.2f}% \t{nb_perc:.2f}%") 
+    return m_perc, f_perc, nb_perc
 
 if __name__ == '__main__':
     main()
